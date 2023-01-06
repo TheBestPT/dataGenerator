@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "generate-password": "^1.7.0",
+    "mssql": "^9.0.1",
+    "tedious": "^15.1.2"
+  }
+}

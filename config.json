@@ -1,0 +1,7 @@
+{
+    "user": "projeto_aribooking_app_user",
+    "password": "admin1",
+    "server": "localhost", 
+    "database": "Projeto_AirBooking",
+    "trustServerCertificate": true
+}

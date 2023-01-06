@@ -1,0 +1,17 @@
+[
+  {
+    "id_tipo_alojamento": 1,
+    "descricao": "apartamento/casa completo/a",
+    "icon_tipo_alojamento": "apartamentocasecompletoa.png"
+  },
+  {
+    "id_tipo_alojamento": 2,
+    "descricao": "quarto privado",
+    "icon_tipo_alojamento": "quartoprivado.png"
+  },
+  {
+    "id_tipo_alojamento": 3,
+    "descricao": "quarto partilhado",
+    "icon_tipo_alojamento": "quartopartilhado.png"
+  }
+]

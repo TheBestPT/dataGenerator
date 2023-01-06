@@ -1,0 +1,1 @@
+https://public.opendatasoft.com/explore/dataset/airbnb-listings/api/?disjunctive.host_verifications&disjunctive.amenities&disjunctive.features&rows=1000 - alojamentos
