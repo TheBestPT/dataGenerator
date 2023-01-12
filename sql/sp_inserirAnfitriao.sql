@@ -31,3 +31,7 @@ DBCC CHECKIDENT ('[Alojamento]', RESEED, 0);
 GO
 
 SELECT * FROM Anfitriao
+
+DELETE FROM Cliente
+DELETE FROM Classificacao
+DELETE FROM Classificacao_Anfitriao
