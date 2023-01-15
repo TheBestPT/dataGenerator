@@ -1,7 +1,6 @@
 const fs = require('fs')
 const genPassword = require('generate-password')
 let mails = fs.readFileSync('./data/allEmailsDomains.txt').toString().split('\r\n')
-//let postal_code = require('../data/zipcodes.pt.json')
 let postal_code = require('../data/postal_code_city_country.json')
 let names = fs.readFileSync('./data/names_clientes.txt').toString().split('\r\n')
 const GENERO = ["feminino", "masculino", "outro"]
@@ -16,13 +15,13 @@ function gen(){
     for(let i = 0; i < names.length; i++){
         let nome = names[i]
         //max age 120 year 
-        let idade = randomIntFromInterval(18, 120)
         let mes = randomIntFromInterval(1, 12)
         let dia
         if(mes != 2 && mes <= 8) dia = (mes % 2 != 0) ? randomIntFromInterval(1, 31) : randomIntFromInterval(1, 30)
         else if (mes !=2)dia = (mes % 2 == 0) ? randomIntFromInterval(1, 31) : randomIntFromInterval(1, 30)
         else dia = randomIntFromInterval(1, 28)
-        let ano = new Date().getFullYear()
+        let date = new Date()
+        let ano = randomIntFromInterval(date.getFullYear()-120, date.getFullYear()-18)
         let dataNascimento = mes+"-"+dia+"-"+ano
         let nif = randomIntFromInterval(100000000, 999999999)
         let contato_telefonico = "+"+randomIntFromInterval(1, 998)+""+randomIntFromInterval(100000000, 999999999)
@@ -39,6 +38,7 @@ function gen(){
         let codigo_postal_indicativo = postal_code[postalCodeIndex].postalCode
         let foto = "fotos/"+email+".jpg"
         let morada = postal_code[postalCodeIndex].long
+        morada = morada.replaceAll("'", " ")
         let cidade = postal_code[postalCodeIndex].city
         let pais = postal_code[postalCodeIndex].country
         let genero = GENERO[randomIntFromInterval(0, GENERO.length - 1)]

@@ -1,0 +1,302 @@
+[
+  {
+    "descricao": "Secador de cabelo",
+    "id_tipo_comodidade": 1
+  },
+  {
+    "descricao": "Produtos de limpeza",
+    "id_tipo_comodidade": 1
+  },
+  {
+    "descricao": "Agua quente",
+    "id_tipo_comodidade": 1
+  },
+  {
+    "descricao": "Champo",
+    "id_tipo_comodidade": 1
+  },
+  {
+    "descricao": "Sabonete de corpo",
+    "id_tipo_comodidade": 1
+  },
+  {
+    "descricao": "Básico: toalhas, lencois de cama, gel de banho e papel higienico",
+    "id_tipo_comodidade": 2
+  },
+  {
+    "descricao": "Cabides",
+    "id_tipo_comodidade": 2
+  },
+  {
+    "descricao": "Roupa de cama",
+    "id_tipo_comodidade": 2
+  },
+  {
+    "descricao": "Maquina de lavar",
+    "id_tipo_comodidade": 2
+  },
+  {
+    "descricao": "Cobertores e almofadas extra",
+    "id_tipo_comodidade": 2
+  },
+  {
+    "descricao": "Ferro de engomar",
+    "id_tipo_comodidade": 2
+  },
+  {
+    "descricao": "Suporte para secar roupa",
+    "id_tipo_comodidade": 2
+  },
+  {
+    "descricao": "Armario de roupa: roupeiro",
+    "id_tipo_comodidade": 1
+  },
+  {
+    "descricao": "Cortinas para escurecer o quarto",
+    "id_tipo_comodidade": 2
+  },
+  {
+    "descricao": "Lareira interior",
+    "id_tipo_comodidade": 3
+  },
+  {
+    "descricao": "Aquecimento central",
+    "id_tipo_comodidade": 3
+  },
+  {
+    "descricao": "Ar condicionado",
+    "id_tipo_comodidade": 3
+  },
+  {
+    "descricao": "Aquecedor portatil",
+    "id_tipo_comodidade": 3
+  },
+  {
+    "descricao": "Camaras de seguranca na propriedade",
+    "id_tipo_comodidade": 4
+  },
+  {
+    "descricao": "Detetor de fumo",
+    "id_tipo_comodidade": 4
+  },
+  {
+    "descricao": "Alarme de monoxido de carbono",
+    "id_tipo_comodidade": 4
+  },
+  {
+    "descricao": "Extintor de incendio",
+    "id_tipo_comodidade": 4
+  },
+  {
+    "descricao": "Kit de primeiros socorros",
+    "id_tipo_comodidade": 4
+  },
+  {
+    "descricao": "Wifi",
+    "id_tipo_comodidade": 5
+  },
+  {
+    "descricao": "Wifi portatil",
+    "id_tipo_comodidade": 5
+  },
+  {
+    "descricao": "Conexao ethernet",
+    "id_tipo_comodidade": 5
+  },
+  {
+    "descricao": "Sistema de som",
+    "id_tipo_comodidade": 5
+  },
+  {
+    "descricao": "Livros e materiais de leitura",
+    "id_tipo_comodidade": 1
+  },
+  {
+    "descricao": "Televisao",
+    "id_tipo_comodidade": 5
+  },
+  {
+    "descricao": "Espaco de trabalho exclusivo",
+    "id_tipo_comodidade": 5
+  },
+  {
+    "descricao": "Cozinha",
+    "id_tipo_comodidade": 6
+  },
+  {
+    "descricao": "Frigorifico",
+    "id_tipo_comodidade": 6
+  },
+  {
+    "descricao": "Utensilios basicos de cozinha: tachos e panelas, oleo, sal e pimenta",
+    "id_tipo_comodidade": 6
+  },
+  {
+    "descricao": "Loucas e talheres: tigelas, pauzinhos, pratos, copos, etc.",
+    "id_tipo_comodidade": 6
+  },
+  {
+    "descricao": "Congelador",
+    "id_tipo_comodidade": 6
+  },
+  {
+    "descricao": "Fogao a gas",
+    "id_tipo_comodidade": 6
+  },
+  {
+    "descricao": "Fogao",
+    "id_tipo_comodidade": 6
+  },
+  {
+    "descricao": "Forno",
+    "id_tipo_comodidade": 6
+  },
+  {
+    "descricao": "Microondas",
+    "id_tipo_comodidade": 6
+  },
+  {
+    "descricao": "Chaleira de agua quente",
+    "id_tipo_comodidade": 6
+  },
+  {
+    "descricao": "Torradeira",
+    "id_tipo_comodidade": 6
+  },
+  {
+    "descricao": "Cafe",
+    "id_tipo_comodidade": 6
+  },
+  {
+    "descricao": "Cafeteira",
+    "id_tipo_comodidade": 6
+  },
+  {
+    "descricao": "Maquina de lavar louca",
+    "id_tipo_comodidade": 6
+  },
+  {
+    "descricao": "Entrada privada",
+    "id_tipo_comodidade": 7
+  },
+  {
+    "descricao": "Patio ou varanda",
+    "id_tipo_comodidade": 8
+  },
+  {
+    "descricao": "Quintal",
+    "id_tipo_comodidade": 8
+  },
+  {
+    "descricao": "Mobilia exterior",
+    "id_tipo_comodidade": 8
+  },
+  {
+    "descricao": "Churrasco",
+    "id_tipo_comodidade": 8
+  },
+  {
+    "descricao": "Rede",
+    "id_tipo_comodidade": 8
+  },
+  {
+    "descricao": "Bicicletas",
+    "id_tipo_comodidade": 8
+  },
+  {
+    "descricao": "Zona de refeicoes ao livre",
+    "id_tipo_comodidade": 8
+  },
+  {
+    "descricao": "Estacionamento gratuito nas instalacoes",
+    "id_tipo_comodidade": 9
+  },
+  {
+    "descricao": "Carregador para veiculo eletrico",
+    "id_tipo_comodidade": 1
+  },
+  {
+    "descricao": "Casa terrea",
+    "id_tipo_comodidade": 9
+  },
+  {
+    "descricao": "Jacuzzi",
+    "id_tipo_comodidade": 9
+  },
+  {
+    "descricao": "Partilhada piscina exterior",
+    "id_tipo_comodidade": 9
+  },
+  {
+    "descricao": "Check-in autonomo",
+    "id_tipo_comodidade": 10
+  },
+  {
+    "descricao": "Cofre",
+    "id_tipo_comodidade": 10
+  },
+  {
+    "descricao": "Estadias de longa duracao sao permitidas",
+    "id_tipo_comodidade": 10
+  },
+  {
+    "descricao": "Pequeno almoco",
+    "id_tipo_comodidade": 10
+  },
+  {
+    "descricao": "Permitido animais",
+    "id_tipo_comodidade": 10
+  },
+  {
+    "descricao": "E permitido deixar as malas",
+    "id_tipo_comodidade": 10
+  },
+  {
+    "descricao": "O anfitriao recebe-o",
+    "id_tipo_comodidade": 10
+  },
+  {
+    "descricao": "Limpeza disponivel durante a estadia",
+    "id_tipo_comodidade": 10
+  },
+  {
+    "descricao": "Berco",
+    "id_tipo_comodidade": 11
+  },
+  {
+    "descricao": "Cadeira de bebe",
+    "id_tipo_comodidade": 11
+  },
+  {
+    "descricao": "Recomendacoes para babysitters",
+    "id_tipo_comodidade": 11
+  },
+  {
+    "descricao": "Berco portatil",
+    "id_tipo_comodidade": 11
+  },
+  {
+    "descricao": "Livros e brinquedos para criancas",
+    "id_tipo_comodidade": 11
+  },
+  {
+    "descricao": "Pratos e talheres para crianca",
+    "id_tipo_comodidade": 11
+  },
+  {
+    "descricao": "Banheira para bebes",
+    "id_tipo_comodidade": 11
+  },
+  {
+    "descricao": "Trocador de fraldas",
+    "id_tipo_comodidade": 11
+  },
+  {
+    "descricao": "Protetores de lareira",
+    "id_tipo_comodidade": 11
+  },
+  {
+    "descricao": "Rede/grade de protecao de janelas",
+    "id_tipo_comodidade": 11
+  }
+]

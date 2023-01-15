@@ -35,3 +35,4 @@ SELECT * FROM Anfitriao
 DELETE FROM Cliente
 DELETE FROM Classificacao
 DELETE FROM Classificacao_Anfitriao
+

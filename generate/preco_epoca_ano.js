@@ -1,5 +1,3 @@
-const fs = require('fs')
-const { isTypedArray } = require('util/types')
 let alojamentos = require('../data/alojamentoRandomData.json')
 alojamentos = alojamentos.records
 

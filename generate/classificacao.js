@@ -1,6 +1,4 @@
 const fs = require('fs')
-const alojamento = require('../output/alojamento.json')
-const cliente = require('../output/clientes.json')
 const comentarios = require('../data/Dados_Tabela_Classificacao.json')
 module.exports = { gen }
 
@@ -13,9 +11,7 @@ function gen(){
         let localizacao = randomIntFromInterval(1, 5)
         let qualidade_preco = randomIntFromInterval(1, 5)
         let comentario = comentarios[randomIntFromInterval(0, comentarios.length - 1)].comentario
-        let email_anfitriao = alojamento[i].email_anfitriao
-        let email_cliente = cliente[randomIntFromInterval(0, cliente.length - 1)].email
-        classificacao.push({limpeza: limpeza, comunicacao: comunicacao, check_in: check_in, localizacao: localizacao, qualidade_preco: qualidade_preco, comentario: comentario, email_anfitriao: email_anfitriao, email_cliente: email_cliente})
+        classificacao.push({limpeza: limpeza, comunicacao: comunicacao, check_in: check_in, localizacao: localizacao, qualidade_preco: qualidade_preco, comentario: comentario})
     }
     return classificacao
 }

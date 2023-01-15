@@ -1,0 +1,56 @@
+[
+  {
+    "id_tipo_comodidade": 1,
+    "descricao": "Casa de banho",
+    "icon_tipo_comodidade": ""
+  },
+  {
+    "id_tipo_comodidade": 2,
+    "descricao": "Quarto e lavandaria",
+    "icon_tipo_comodidade": ""
+  },
+  {
+    "id_tipo_comodidade": 3,
+    "descricao": "Aquecimento e arrefecimento",
+    "icon_tipo_comodidade": ""
+  },
+  {
+    "id_tipo_comodidade": 4,
+    "descricao": "Segurança doméstica",
+    "icon_tipo_comodidade": ""
+  },
+  {
+    "id_tipo_comodidade": 5,
+    "descricao": "Internet e escritório",
+    "icon_tipo_comodidade": ""
+  },
+  {
+    "id_tipo_comodidade": 6,
+    "descricao": "Cozinha e refeição",
+    "icon_tipo_comodidade": ""
+  },
+  {
+    "id_tipo_comodidade": 7,
+    "descricao": "Características da localização",
+    "icon_tipo_comodidade": ""
+  },
+  {
+    "id_tipo_comodidade": 8,
+    "descricao": "Exterior",
+    "icon_tipo_comodidade": ""
+  },
+  {
+    "id_tipo_comodidade": 9,
+    "descricao": "Estacionamento e instalações",
+    "icon_tipo_comodidade": ""
+  },
+  {
+    "id_tipo_comodidade": 10,
+    "descricao": "Serviços",
+    "icon_tipo_comodidade": ""
+  },
+  {
+    "descricao": "Familia",
+    "id_tipo_comodidade": 11
+  }
+]
