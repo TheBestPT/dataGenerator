@@ -6,7 +6,7 @@ module.exports = { gen }
 function gen(){
     pais = []
     for(let i = 0; i < allCountries.length; i++){
-        pais.push({nome_pais: allCountries[randomIntFromInterval(0, allCountries.length - 1)].country})
+        pais.push({nome_pais: allCountries[i].country})
     }
     return pais
 }

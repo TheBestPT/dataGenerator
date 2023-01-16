@@ -1,1 +1,575 @@
-[{"nome_pais":"Cameroon"},{"nome_pais":"Bermuda"},{"nome_pais":"Finland"},{"nome_pais":"Angola"},{"nome_pais":"Tajikistan"},{"nome_pais":"Somalia"},{"nome_pais":"Cameroon"},{"nome_pais":"Brunei"},{"nome_pais":"Antarctica"},{"nome_pais":"Qatar"},{"nome_pais":"Australia"},{"nome_pais":"France"},{"nome_pais":"Hong Kong"},{"nome_pais":"Malta"},{"nome_pais":"Ireland"},{"nome_pais":"Solomon Islands"},{"nome_pais":"Angola"},{"nome_pais":"Turkmenistan"},{"nome_pais":"Nigeria"},{"nome_pais":"Congo, Democratic Republic"},{"nome_pais":"Suriname"},{"nome_pais":"Panama"},{"nome_pais":"Russia"},{"nome_pais":"Serbia and Montenegro"},{"nome_pais":"Australia"},{"nome_pais":"Burundi"},{"nome_pais":"Lithuania"},{"nome_pais":"Cuba"},{"nome_pais":"Australia"},{"nome_pais":"Guinea"},{"nome_pais":"Turkmenistan"},{"nome_pais":"Morocco"},{"nome_pais":"Belarus"},{"nome_pais":"Netherlands"},{"nome_pais":"Niger"},{"nome_pais":"Syria"},{"nome_pais":"Eritrea"},{"nome_pais":"Paraguay"},{"nome_pais":"Armenia"},{"nome_pais":"Greenland"},{"nome_pais":"Dominica"},{"nome_pais":"Tonga"},{"nome_pais":"El Salvador"},{"nome_pais":"Korea South"},{"nome_pais":"Malaysia"},{"nome_pais":"Korea North"},{"nome_pais":"Philippines"},{"nome_pais":"Madagascar"},{"nome_pais":"Dominica"},{"nome_pais":"Libya"},{"nome_pais":"Uzbekistan"},{"nome_pais":"Chad"},{"nome_pais":"Burma"},{"nome_pais":"Costa Rica"},{"nome_pais":"Liberia"},{"nome_pais":"Marshall Islands"},{"nome_pais":"Lesotho"},{"nome_pais":"Mexico"},{"nome_pais":"Armenia"},{"nome_pais":"Botswana"},{"nome_pais":"Chad"},{"nome_pais":"Chile"},{"nome_pais":"India"},{"nome_pais":"Liberia"},{"nome_pais":"Vietnam"},{"nome_pais":"Togo"},{"nome_pais":"Papua New Guinea"},{"nome_pais":"Peru"},{"nome_pais":"Kuwait"},{"nome_pais":"Singapore"},{"nome_pais":"Slovakia"},{"nome_pais":"Syria"},{"nome_pais":"Slovakia"},{"nome_pais":"Venezuela"},{"nome_pais":"China"},{"nome_pais":"Kyrgyzstan"},{"nome_pais":"Mauritania"},{"nome_pais":"Ukraine"},{"nome_pais":"Angola"},{"nome_pais":"El Salvador"},{"nome_pais":"Belgium"},{"nome_pais":"Kyrgyzstan"},{"nome_pais":"Iraq"},{"nome_pais":"Namibia"},{"nome_pais":"Romania"},{"nome_pais":"Slovakia"},{"nome_pais":"Solomon Islands"},{"nome_pais":"Solomon Islands"},{"nome_pais":"Jamaica"},{"nome_pais":"Sri Lanka"},{"nome_pais":"Brunei"},{"nome_pais":"Cyprus"},{"nome_pais":"Dominican Republic"},{"nome_pais":"Australia"},{"nome_pais":"Samoa"},{"nome_pais":"Norway"},{"nome_pais":"Croatia"},{"nome_pais":"Lebanon"},{"nome_pais":"Turkmenistan"},{"nome_pais":"Niger"},{"nome_pais":"Singapore"},{"nome_pais":"Egypt"},{"nome_pais":"Mexico"},{"nome_pais":"Lesotho"},{"nome_pais":"Cambodia"},{"nome_pais":"Austria"},{"nome_pais":"South Africa"},{"nome_pais":"Greece"},{"nome_pais":"Papua New Guinea"},{"nome_pais":"Sri Lanka"},{"nome_pais":"Indonesia"},{"nome_pais":"Burma"},{"nome_pais":"Mongolia"},{"nome_pais":"Costa Rica"},{"nome_pais":"Central African Republic"},{"nome_pais":"Peru"},{"nome_pais":"Paraguay"},{"nome_pais":"Bahamas"},{"nome_pais":"Solomon Islands"},{"nome_pais":"Belgium"},{"nome_pais":"Dominican Republic"},{"nome_pais":"Benin"},{"nome_pais":"Cuba"},{"nome_pais":"Bangladesh"},{"nome_pais":"Cyprus"},{"nome_pais":"China"},{"nome_pais":"Serbia and Montenegro"},{"nome_pais":"Jamaica"},{"nome_pais":"Honduras"},{"nome_pais":"Guyana"},{"nome_pais":"East Timor"},{"nome_pais":"Bahamas"},{"nome_pais":"Grenada"},{"nome_pais":"United States"},{"nome_pais":"Uzbekistan"},{"nome_pais":"Andorra"},{"nome_pais":"Antigua and Barbuda"},{"nome_pais":"China"},{"nome_pais":"Swaziland"},{"nome_pais":"Antigua and Barbuda"},{"nome_pais":"Korea South"},{"nome_pais":"Bosnia and Herzegovina"},{"nome_pais":"Honduras"},{"nome_pais":"Gabon"},{"nome_pais":"Peru"},{"nome_pais":"Spain"},{"nome_pais":"Benin"},{"nome_pais":"East Timor"},{"nome_pais":"Oman"},{"nome_pais":"Trinidad and Tobago"},{"nome_pais":"Bolivia"},{"nome_pais":"Niger"},{"nome_pais":"Ireland"},{"nome_pais":"Tonga"},{"nome_pais":"Botswana"},{"nome_pais":"Hong Kong"},{"nome_pais":"Slovakia"},{"nome_pais":"China"},{"nome_pais":"Croatia"},{"nome_pais":"Liberia"},{"nome_pais":"Japan"},{"nome_pais":"Taiwan"},{"nome_pais":"Serbia and Montenegro"},{"nome_pais":"Slovenia"},{"nome_pais":"Barbados"},{"nome_pais":"Fiji"},{"nome_pais":"United Arab Emirates"},{"nome_pais":"Vietnam"},{"nome_pais":"Togo"},{"nome_pais":"Cuba"},{"nome_pais":"Cuba"},{"nome_pais":"Poland"},{"nome_pais":"Indonesia"},{"nome_pais":"Cape Verde"},{"nome_pais":"Canada"},{"nome_pais":"Uzbekistan"},{"nome_pais":"Oman"},{"nome_pais":"Azerbaijan"},{"nome_pais":"Monaco"},{"nome_pais":"Burkina Faso"},{"nome_pais":"Suriname"},{"nome_pais":"Nauru"},{"nome_pais":"Zambia"},{"nome_pais":"Angola"},{"nome_pais":"Romania"},{"nome_pais":"Congo, Democratic Republic"},{"nome_pais":"Italy"},{"nome_pais":"Namibia"},{"nome_pais":"Yemen"},{"nome_pais":"Austria"},{"nome_pais":"Paraguay"}]
+[
+  {
+    "nome_pais": "Afghanistan"
+  },
+  {
+    "nome_pais": "Albania"
+  },
+  {
+    "nome_pais": "Algeria"
+  },
+  {
+    "nome_pais": "Andorra"
+  },
+  {
+    "nome_pais": "Angola"
+  },
+  {
+    "nome_pais": "Antarctica"
+  },
+  {
+    "nome_pais": "Antigua and Barbuda"
+  },
+  {
+    "nome_pais": "Argentina"
+  },
+  {
+    "nome_pais": "Armenia"
+  },
+  {
+    "nome_pais": "Australia"
+  },
+  {
+    "nome_pais": "Austria"
+  },
+  {
+    "nome_pais": "Azerbaijan"
+  },
+  {
+    "nome_pais": "Bahamas"
+  },
+  {
+    "nome_pais": "Bahrain"
+  },
+  {
+    "nome_pais": "Bangladesh"
+  },
+  {
+    "nome_pais": "Barbados"
+  },
+  {
+    "nome_pais": "Belarus"
+  },
+  {
+    "nome_pais": "Belgium"
+  },
+  {
+    "nome_pais": "Belize"
+  },
+  {
+    "nome_pais": "Benin"
+  },
+  {
+    "nome_pais": "Bermuda"
+  },
+  {
+    "nome_pais": "Bhutan"
+  },
+  {
+    "nome_pais": "Bolivia"
+  },
+  {
+    "nome_pais": "Bosnia and Herzegovina"
+  },
+  {
+    "nome_pais": "Botswana"
+  },
+  {
+    "nome_pais": "Brazil"
+  },
+  {
+    "nome_pais": "Brunei"
+  },
+  {
+    "nome_pais": "Bulgaria"
+  },
+  {
+    "nome_pais": "Burkina Faso"
+  },
+  {
+    "nome_pais": "Burma"
+  },
+  {
+    "nome_pais": "Burundi"
+  },
+  {
+    "nome_pais": "Cambodia"
+  },
+  {
+    "nome_pais": "Cameroon"
+  },
+  {
+    "nome_pais": "Canada"
+  },
+  {
+    "nome_pais": "Cape Verde"
+  },
+  {
+    "nome_pais": "Central African Republic"
+  },
+  {
+    "nome_pais": "Chad"
+  },
+  {
+    "nome_pais": "Chile"
+  },
+  {
+    "nome_pais": "China"
+  },
+  {
+    "nome_pais": "Colombia"
+  },
+  {
+    "nome_pais": "Comoros"
+  },
+  {
+    "nome_pais": "Congo, Democratic Republic"
+  },
+  {
+    "nome_pais": "Congo, Republic of the"
+  },
+  {
+    "nome_pais": "Costa Rica"
+  },
+  {
+    "nome_pais": "Cote d'Ivoire"
+  },
+  {
+    "nome_pais": "Croatia"
+  },
+  {
+    "nome_pais": "Cuba"
+  },
+  {
+    "nome_pais": "Cyprus"
+  },
+  {
+    "nome_pais": "Czech Republic"
+  },
+  {
+    "nome_pais": "Denmark"
+  },
+  {
+    "nome_pais": "Djibouti"
+  },
+  {
+    "nome_pais": "Dominica"
+  },
+  {
+    "nome_pais": "Dominican Republic"
+  },
+  {
+    "nome_pais": "East Timor"
+  },
+  {
+    "nome_pais": "Ecuador"
+  },
+  {
+    "nome_pais": "Egypt"
+  },
+  {
+    "nome_pais": "El Salvador"
+  },
+  {
+    "nome_pais": "Equatorial Guinea"
+  },
+  {
+    "nome_pais": "Eritrea"
+  },
+  {
+    "nome_pais": "Estonia"
+  },
+  {
+    "nome_pais": "Ethiopia"
+  },
+  {
+    "nome_pais": "Fiji"
+  },
+  {
+    "nome_pais": "Finland"
+  },
+  {
+    "nome_pais": "France"
+  },
+  {
+    "nome_pais": "Gabon"
+  },
+  {
+    "nome_pais": "Gambia"
+  },
+  {
+    "nome_pais": "Georgia"
+  },
+  {
+    "nome_pais": "Germany"
+  },
+  {
+    "nome_pais": "Ghana"
+  },
+  {
+    "nome_pais": "Greece"
+  },
+  {
+    "nome_pais": "Greenland"
+  },
+  {
+    "nome_pais": "Grenada"
+  },
+  {
+    "nome_pais": "Guatemala"
+  },
+  {
+    "nome_pais": "Guinea"
+  },
+  {
+    "nome_pais": "Guinea-Bissau"
+  },
+  {
+    "nome_pais": "Guyana"
+  },
+  {
+    "nome_pais": "Haiti"
+  },
+  {
+    "nome_pais": "Honduras"
+  },
+  {
+    "nome_pais": "Hong Kong"
+  },
+  {
+    "nome_pais": "Hungary"
+  },
+  {
+    "nome_pais": "Iceland"
+  },
+  {
+    "nome_pais": "India"
+  },
+  {
+    "nome_pais": "Indonesia"
+  },
+  {
+    "nome_pais": "Iran"
+  },
+  {
+    "nome_pais": "Iraq"
+  },
+  {
+    "nome_pais": "Ireland"
+  },
+  {
+    "nome_pais": "Israel"
+  },
+  {
+    "nome_pais": "Italy"
+  },
+  {
+    "nome_pais": "Jamaica"
+  },
+  {
+    "nome_pais": "Japan"
+  },
+  {
+    "nome_pais": "Jordan"
+  },
+  {
+    "nome_pais": "Kazakhstan"
+  },
+  {
+    "nome_pais": "Kenya"
+  },
+  {
+    "nome_pais": "Kiribati"
+  },
+  {
+    "nome_pais": "Korea North"
+  },
+  {
+    "nome_pais": "Korea South"
+  },
+  {
+    "nome_pais": "Kuwait"
+  },
+  {
+    "nome_pais": "Kyrgyzstan"
+  },
+  {
+    "nome_pais": "Laos"
+  },
+  {
+    "nome_pais": "Latvia"
+  },
+  {
+    "nome_pais": "Lebanon"
+  },
+  {
+    "nome_pais": "Lesotho"
+  },
+  {
+    "nome_pais": "Liberia"
+  },
+  {
+    "nome_pais": "Libya"
+  },
+  {
+    "nome_pais": "Liechtenstein"
+  },
+  {
+    "nome_pais": "Lithuania"
+  },
+  {
+    "nome_pais": "Luxembourg"
+  },
+  {
+    "nome_pais": "Macedonia"
+  },
+  {
+    "nome_pais": "Madagascar"
+  },
+  {
+    "nome_pais": "Malawi"
+  },
+  {
+    "nome_pais": "Malaysia"
+  },
+  {
+    "nome_pais": "Maldives"
+  },
+  {
+    "nome_pais": "Mali"
+  },
+  {
+    "nome_pais": "Malta"
+  },
+  {
+    "nome_pais": "Marshall Islands"
+  },
+  {
+    "nome_pais": "Mauritania"
+  },
+  {
+    "nome_pais": "Mauritius"
+  },
+  {
+    "nome_pais": "Mexico"
+  },
+  {
+    "nome_pais": "Micronesia"
+  },
+  {
+    "nome_pais": "Moldova"
+  },
+  {
+    "nome_pais": "Mongolia"
+  },
+  {
+    "nome_pais": "Morocco"
+  },
+  {
+    "nome_pais": "Monaco"
+  },
+  {
+    "nome_pais": "Mozambique"
+  },
+  {
+    "nome_pais": "Namibia"
+  },
+  {
+    "nome_pais": "Nauru"
+  },
+  {
+    "nome_pais": "Nepal"
+  },
+  {
+    "nome_pais": "Netherlands"
+  },
+  {
+    "nome_pais": "New Zealand"
+  },
+  {
+    "nome_pais": "Nicaragua"
+  },
+  {
+    "nome_pais": "Niger"
+  },
+  {
+    "nome_pais": "Nigeria"
+  },
+  {
+    "nome_pais": "Norway"
+  },
+  {
+    "nome_pais": "Oman"
+  },
+  {
+    "nome_pais": "Pakistan"
+  },
+  {
+    "nome_pais": "Panama"
+  },
+  {
+    "nome_pais": "Papua New Guinea"
+  },
+  {
+    "nome_pais": "Paraguay"
+  },
+  {
+    "nome_pais": "Peru"
+  },
+  {
+    "nome_pais": "Philippines"
+  },
+  {
+    "nome_pais": "Poland"
+  },
+  {
+    "nome_pais": "Portugal"
+  },
+  {
+    "nome_pais": "Qatar"
+  },
+  {
+    "nome_pais": "Romania"
+  },
+  {
+    "nome_pais": "Russia"
+  },
+  {
+    "nome_pais": "Rwanda"
+  },
+  {
+    "nome_pais": "Samoa"
+  },
+  {
+    "nome_pais": "San Marino"
+  },
+  {
+    "nome_pais": "Sao Tome"
+  },
+  {
+    "nome_pais": "Saudi Arabia"
+  },
+  {
+    "nome_pais": "Senegal"
+  },
+  {
+    "nome_pais": "Serbia and Montenegro"
+  },
+  {
+    "nome_pais": "Seychelles"
+  },
+  {
+    "nome_pais": "Sierra Leone"
+  },
+  {
+    "nome_pais": "Singapore"
+  },
+  {
+    "nome_pais": "Slovakia"
+  },
+  {
+    "nome_pais": "Slovenia"
+  },
+  {
+    "nome_pais": "Solomon Islands"
+  },
+  {
+    "nome_pais": "Somalia"
+  },
+  {
+    "nome_pais": "South Africa"
+  },
+  {
+    "nome_pais": "Spain"
+  },
+  {
+    "nome_pais": "Sri Lanka"
+  },
+  {
+    "nome_pais": "Sudan"
+  },
+  {
+    "nome_pais": "Suriname"
+  },
+  {
+    "nome_pais": "Swaziland"
+  },
+  {
+    "nome_pais": "Sweden"
+  },
+  {
+    "nome_pais": "Switzerland"
+  },
+  {
+    "nome_pais": "Syria"
+  },
+  {
+    "nome_pais": "Taiwan"
+  },
+  {
+    "nome_pais": "Tajikistan"
+  },
+  {
+    "nome_pais": "Tanzania"
+  },
+  {
+    "nome_pais": "Thailand"
+  },
+  {
+    "nome_pais": "Togo"
+  },
+  {
+    "nome_pais": "Tonga"
+  },
+  {
+    "nome_pais": "Trinidad and Tobago"
+  },
+  {
+    "nome_pais": "Tunisia"
+  },
+  {
+    "nome_pais": "Turkey"
+  },
+  {
+    "nome_pais": "Turkmenistan"
+  },
+  {
+    "nome_pais": "Uganda"
+  },
+  {
+    "nome_pais": "Ukraine"
+  },
+  {
+    "nome_pais": "United Arab Emirates"
+  },
+  {
+    "nome_pais": "United Kingdom"
+  },
+  {
+    "nome_pais": "United States"
+  },
+  {
+    "nome_pais": "Uruguay"
+  },
+  {
+    "nome_pais": "Uzbekistan"
+  },
+  {
+    "nome_pais": "Vanuatu"
+  },
+  {
+    "nome_pais": "Venezuela"
+  },
+  {
+    "nome_pais": "Vietnam"
+  },
+  {
+    "nome_pais": "Yemen"
+  },
+  {
+    "nome_pais": "Zambia"
+  },
+  {
+    "nome_pais": "Zimbabwe"
+  }
+]

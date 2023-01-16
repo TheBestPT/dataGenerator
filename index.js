@@ -5,9 +5,6 @@
         input: process.stdin,
         output: process.stdout,
     })
-    //let generateAlojamento = require('./generate/alojamento')
-    //fs.writeFileSync('./output/alojamento.json', JSON.stringify(generateAlojamento.gen()))
-    //return
     readline.question(`Data generator for Projeto_AirBooking\n1 - Generate all data again.\n2 - Insert all data in database (NOTE: with this action you will delete all data in database!).\nType:`, async option => {
         switch(option){
             case "1":
@@ -25,6 +22,8 @@
                 break
         }
     })  
+    //console.log = function() {}
+    
     
 })()
 
@@ -95,7 +94,7 @@ async function insertAllDataInDB(mssql){
     await insertLogs(fotos_alojamento, mssql)
     await insertTiposComodidade(tipo_comodidades, mssql)
     await insertComodidade(comodidades, mssql)
-    await insertAlojamentoComodidade(alojamento_comodidade, mssql)
+    //await insertAlojamentoComodidade(alojamento_comodidade, mssql)
     end = Date.now()
     console.log(`Execution time: ${end - start} ms`)
     await mssql.close()
@@ -129,7 +128,8 @@ async function insertClientes(clientes, mssql){
 
 async function insertCountries(pais, mssql){
     for(let i = 0; i < pais.length; i++){
-        sqlStr = `IF NOT EXISTS (SELECT nome_pais FROM pais WHERE nome_pais = '${pais[i].nome_pais}') INSERT INTO Pais (nome_pais) VALUES('${pais[i].nome_pais}') `
+        let paisIns = pais[i].nome_pais.replaceAll("'", " ")
+        sqlStr = `INSERT INTO Pais (nome_pais) VALUES('${paisIns}') `
         await mssql.execSql(sqlStr)
         printLog('Países', i, +pais.length)
     } 

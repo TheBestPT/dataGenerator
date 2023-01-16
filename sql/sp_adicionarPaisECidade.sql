@@ -12,15 +12,15 @@ BEGIN
 	--DECLARE @inserirPais VARCHAR(255);
 	DECLARE @idPais INT;
 	--SELECT @inserirPais = 'Portugal'
-	SELECT @nomePais = nome_pais FROM Pais WHERE nome_pais = @inserirPais
+	SELECT @nomePais = nome_pais FROM Pais WHERE nome_pais LIKE @inserirPais
 
 	IF @nomePais IS NULL
 	BEGIN
 		INSERT INTO Pais (nome_pais) VALUES(@inserirPais)
-		SELECT @idPais = id_pais FROM Pais WHERE nome_pais = @inserirPais
+		SELECT @idPais = id_pais FROM Pais WHERE nome_pais LIKE @inserirPais
 	END
 	ELSE 
-		SELECT @idPais = id_pais FROM Pais WHERE nome_pais = @inserirPais
+		SELECT @idPais = id_pais FROM Pais WHERE nome_pais LIKE @inserirPais
 
 	--PRINT @idPais
 

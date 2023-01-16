@@ -14,11 +14,11 @@ function gen(isClient = false){
         //max age 120 year
         let mes = randomIntFromInterval(1, 12)
         let dia
-        if(mes != 2 && mes <= 8) dia = (mes % 2 != 0) ? randomIntFromInterval(1, 31) : randomIntFromInterval(1, 30)
-        else if (mes !=2)dia = (mes % 2 == 0) ? randomIntFromInterval(1, 31) : randomIntFromInterval(1, 30)
-        else dia = randomIntFromInterval(1, 28)
         let date = new Date()
         let ano = randomIntFromInterval(date.getFullYear()-120, date.getFullYear()-18)
+        if(mes != 2 && mes <= 8) dia = (mes % 2 != 0) ? randomIntFromInterval(1, 31) : randomIntFromInterval(1, 30)
+        else if (mes !=2)dia = (mes % 2 == 0) ? randomIntFromInterval(1, 31) : randomIntFromInterval(1, 30)
+        else dia = leapyear(ano) ? randomIntFromInterval(1, 29) : randomIntFromInterval(1, 28)
         let dataNascimento = mes+"-"+dia+"-"+ano
         let contato_telefonico = "+"+randomIntFromInterval(1, 998)+""+randomIntFromInterval(100000000, 999999999)
         let contato_emergencia = "+"+randomIntFromInterval(1, 998)+""+randomIntFromInterval(100000000, 999999999)    
@@ -45,6 +45,10 @@ function gen(isClient = false){
                         codigo_postal_cidade: codigo_postal_cidade})
     }
     return afintrioes
+}
+
+function leapyear(year){
+    return (year % 100 === 0) ? (year % 400 === 0) : (year % 4 === 0);
 }
 
 

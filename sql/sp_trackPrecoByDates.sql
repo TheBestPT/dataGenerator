@@ -85,7 +85,7 @@ name, definition
 FROM
     sys.check_constraints
 WHERE
-    name = 'FK__Foto_Aloj__id_al__534D60F1'
+    name = 'DF__Alojament__Class__4D5F7D71'
 
 
 
